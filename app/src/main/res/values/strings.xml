@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sip &amp; Bites</string>
+    <string name="slogan">Making time a good time by making food the good food.</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_0852023968">0852023968</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="nav_open">open navigation drawer</string>
+    <string name="nav_close">close navigation drawer</string>
+</resources>

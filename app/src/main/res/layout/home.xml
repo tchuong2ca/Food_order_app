@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.home"
+    android:orientation="vertical">
+    <ss.com.bannerslider.Slider
+        android:layout_marginTop="63dp"
+        android:id="@+id/banner_slider1"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        app:slider_animateIndicators="true"
+        app:slider_loopSlides="true" />
+    <GridView
+        android:paddingTop="7dp"
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:scrollbars="vertical"
+        android:verticalSpacing="10dp">
+    </GridView>
+</LinearLayout>

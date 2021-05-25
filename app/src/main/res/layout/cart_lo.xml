@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/cart_food_img"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/cart_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cart_item_Price"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/count_button_in_cart"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="18dp"
+        app:backGroundColor="#F5576C"
+        app:backgroundDrawable="@drawable/btn_signin"
+        app:finalNumber="50"
+        app:initialNumber="1"
+        app:textSize="8sp"
+        tools:ignore="SmallSp">
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hold to remove"
+        android:layout_marginLeft="9dp"/>
+</LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
